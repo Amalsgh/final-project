@@ -1,0 +1,33 @@
+.contact {
+    padding-top: 50px;
+    display: flex;
+}
+.contact img {
+    height: 90%;
+  padding-left: 10%;
+
+}
+
+
+.localisation {
+  display: flex;
+  padding-left: 10%;
+  padding-top: 1%;
+}
+
+.infor {
+  border-style: double;
+  margin-left: 5%;
+  margin-bottom: 10%;
+  padding-top: 2%;
+}
+
+.localisation p {
+  font-size: large;
+  padding-left: 1%;
+  padding-right: 40%;
+}
+.icone {
+  width: 50px !important;
+  height: 30px !important;
+}

@@ -1,0 +1,357 @@
+.email {
+  display: flex;
+}
+.email p {
+  margin-left: 1rem;
+}
+.livraison {
+  display: flex;
+  margin-left: 5%;
+}
+.livraison p {
+  margin-left: 1rem;
+}
+.nav {
+  display: flex;
+  background-color: rgb(134, 179, 31);
+  /* background-color: rgb(190, 235, 86);  */
+  margin-bottom: 1% !important;
+  padding-top: 0% !important;
+}
+
+.navs {
+  display: flex;
+  padding-left: 10%;
+  padding-top: 1%;
+  font-size: medium;
+  font-family: 'Times New Roman', Times, serif;
+}
+.phone {
+  display: flex;
+  margin-left: 5%;
+}
+.phone p {
+  margin-left: 1rem;
+}
+hr {
+  margin-top: 0%;
+}
+.logo {
+  padding-left: 10% !important;
+  font-family: 'Times New Roman', Times, serif !important;
+  font-weight: bolder;
+  /* margin-top: 0%;
+  padding-top: 0%; */
+  font-size: 300%;
+  text-decoration: none;
+  color: rgb(24, 37, 20) !important;
+  /* flex-wrap: wrap; */
+}
+.logo:hover {
+  color: black;
+}
+.i {
+  font-size: 100% !important;
+  padding-right: 3% !important;
+}
+.mx-auto {
+  padding-right: 30% !important;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px !important;
+  /* margin-top: 0%;
+  padding-top: 0%; */
+}
+
+.log p {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 15px !important;
+}
+.log {
+  display: flex;
+}
+/* .connexion {
+  margin-left: 50%;
+} */
+.btnn {
+  height: 50px;
+  width: 80px !important;
+  font-size: medium !important;
+}
+.logout button {
+  /* display: flex !important; */
+  justify-content: space-between;
+  margin-right: 90px;
+  background-color: rgb(175, 211, 184);
+  color: black ;
+  border-color: rgb(175, 211, 184) !important;
+  width: 80px;
+  font-size: small;
+}
+
+/*product card*/
+
+/* 
+body {
+background: #DFC2F2;
+	background-image: linear-gradient( to left, #ffffb3,#ffe6e6);
+	background-attachment: fixed;	
+	background-size: cover;
+  
+	} */
+
+#contain {
+  box-shadow: 0 15px 30px 1px grey;
+  background: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  border-radius: 5px;
+  overflow: hidden;
+  margin: 5em auto;
+  height: 350px;
+  width: 700px;
+}
+
+.product-details {
+  position: relative;
+  text-align: left;
+  overflow: hidden;
+  padding: 30px;
+  height: 100%;
+  float: left;
+  width: 40%;
+}
+
+#container .product-details h1 {
+  font-family: 'Bebas Neue', cursive;
+  display: inline-block;
+  position: relative;
+  font-size: 30px;
+  color: #344055;
+  margin: 0;
+}
+
+#container .product-details h1:before {
+  position: absolute;
+  content: '';
+  right: 0%;
+  top: 0%;
+  transform: translate(25px, -15px);
+  font-family: 'Bree Serif', serif;
+  display: inline-block;
+  background: #ffe6e6;
+  border-radius: 5px;
+  font-size: 14px;
+  padding: 5px;
+  color: white;
+  margin: 0;
+  animation: chan-sh 6s ease infinite;
+}
+
+.hint-star {
+  display: inline-block;
+  margin-left: 0.5em;
+  color: gold;
+  width: 50%;
+}
+
+#contain .product-details > p {
+  font-family: 'EB Garamond', serif;
+  text-align: center;
+  font-size: 18px;
+  color: #7d7d7d;
+}
+.control {
+  position: absolute;
+  bottom: 20%;
+  left: 22.8%;
+}
+.btnnn {
+  transform: translateY(0px);
+  transition: 0.3s linear;
+  background: #809fff;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  color: #eee;
+  padding: 0;
+  margin: 0;
+}
+
+.btnnn:hover {
+  transform: translateY(-6px);
+  background: #1a66ff;
+}
+
+.btnnn span {
+  font-family: 'Farsan', cursive;
+  transition: transform 0.3s;
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  margin: 0;
+}
+.btnnn .price,
+.shopping-cart {
+  background: #333;
+  border: 0;
+  margin: 0;
+}
+
+.btnnn .price {
+  transform: translateX(-10%);
+  padding-right: 15px;
+}
+
+.btnnn .shopping-cart {
+  transform: translateX(-100%);
+  position: absolute;
+  background: #333;
+  z-index: 1;
+  left: 0;
+  top: 0;
+}
+
+.btnnn .buy {
+  z-index: 3;
+  font-weight: bolder;
+}
+
+.btnnn:hover .price {
+  transform: translateX(-110%);
+}
+
+.btnnn:hover .shopping-cart {
+  transform: translateX(0%);
+}
+
+.product-image {
+  transition: all 0.3s ease-out;
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+  float: right;
+  width: 45%;
+  display: inline-block;
+}
+
+#contain img {
+  width: 100%;
+  height: 100%;
+}
+
+.info {
+  background: rgba(27, 26, 26, 0.9);
+  font-family: 'Bree Serif', serif;
+  transition: all 0.3s ease-out;
+  transform: translateX(-100%);
+  position: absolute;
+  line-height: 1.8;
+  text-align: left;
+  font-size: 105%;
+  cursor: no-drop;
+  color: #fff;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+
+.info h2 {
+  text-align: center;
+}
+.product-image:hover .info {
+  transform: translateX(0);
+}
+
+.info ul li {
+  transition: 0.3s ease;
+}
+.info ul li:hover {
+  transform: translateX(50px) scale(1.3);
+}
+
+.product-image:hover img {
+  transition: all 0.3s ease-out;
+}
+.product-image:hover img {
+  transform: scale(1.2, 1.2);
+}
+
+/*filter*/
+.d-flex {
+  align-items: flex-end !important;
+  /* margin-left: 70%; */
+}
+.me-2 {
+  height: 40px !important;
+}
+.me-2 button:hover {
+  color: chocolate !important;
+}
+.bienvenue {
+  display: flex;
+  justify-content: space-around;
+}
+.me-0 {
+  width: 300px;
+  height: 40px !important;
+}
+.bi-basket3 {
+  text-decoration: none;
+  color: black !important;
+  height: 50px !important;
+  width: 50% !important;
+}
+
+/*nouveauté*/
+.nouveauté p {
+  font-weight: bolder;
+  font-size: medium;
+  /* color: green; */
+  letter-spacing: 5px;
+  box-sizing: border-box;
+}
+.fleurs {
+  display: flex;
+  padding-top: 2%;
+}
+.fleur {
+  width: 900px !important;
+}
+
+/*footer*/
+.footer {
+  background-color: rgb(213, 236, 213);
+  margin-top: 1%;
+  padding-bottom: 1%;
+}
+.copy {
+  text-align: left;
+  padding-left: 2%;
+  font-size: small;
+}
+.iconfooter {
+  padding-left: 80%;
+  display: flex;
+}
+.fcb {
+  padding-right: 10%;
+}
+
+
+
+
+
+/*list user*/
+.Table {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.table {
+  font-weight: bold !important;
+  font-size: small !important;
+
+}

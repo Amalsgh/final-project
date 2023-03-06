@@ -1,0 +1,38 @@
+{
+  "name": "project-pepiniere",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "back": "nodemon server",
+    "front": "cd client && npm start",
+    "dev": "concurrently \"npm run front\" \"npm run back\""
+  },
+  "keywords": [
+    "node",
+    "mongoose",
+    "express",
+    "mongodb"
+  ],
+  "author": "Amal",
+  "license": "ISC",
+  "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/material": "^5.11.7",
+    "bcrypt": "^5.1.0",
+    "bootstrap-icons": "^1.10.3",
+    "cloudinary": "^1.33.0",
+    "express": "^4.18.2",
+    "express-validator": "^6.14.3",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.9.0",
+    "multer": "^1.4.5-lts.1",
+    "react-helmet": "^6.1.0"
+  },
+  "devDependencies": {
+    "concurrently": "^7.6.0",
+    "dotenv": "^16.0.3",
+    "nodemon": "^2.0.20"
+  }
+}

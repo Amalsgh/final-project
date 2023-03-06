@@ -1,0 +1,65 @@
+.registeer {
+    background-image: url(https://images.unsplash.com/photo-1518130242561-edb760734bee?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80);
+     background-repeat: no-repeat;
+    /* background-position: center; */ 
+    /* background-size: cover; */
+}
+
+.Inscription {
+  color: rgb(145, 195, 88);
+  margin-top: 80px;
+  font-weight: bolder;
+  /* animation: fadeIn; 
+  animation-duration: 2s; */
+}
+
+.Login {
+  color: rgb(145, 195, 88);
+  margin-top: 80px;
+}
+
+.cadres {
+   /* background-image: url(https://images.unsplash.com/photo-1517848568502-d03fa74e1964?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);  */
+  background-color: #fff;
+  background-size: auto;
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 400px;
+  border-radius: 6px;
+  justify-content: center;
+  margin: auto;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 25px;
+  padding-bottom: 80px;
+}
+.cadres:hover {
+  box-shadow: 0 4px 8px 0 gray;
+  border-radius: 10px;
+}
+
+.cadre2 {
+  margin-top: 60px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.bouton {
+  background: rgb(145, 195, 88) !important;
+  border-color: rgb(145, 195, 88) !important;
+  
+}
+.bouton:hover {
+  background: rgb(108, 153, 57);
+  background: radial-gradient(
+    circle,
+    rgba(108, 153, 57, 1) 0%,
+    rgba(108, 153, 57, 1) 100%
+  );
+}
+
+.boutontext {
+  color: white ;
+  font-weight: bolder !important;
+  font-size: larger;
+}
+

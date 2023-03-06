@@ -1,0 +1,14 @@
+
+.addproduct {
+    padding-left: 30%;
+    padding-right: 30%;
+}
+.ajouter {
+    background-color: rgb(134, 179, 31)!important;
+    border-color: rgb(134, 179, 31) !important;
+    color: black !important;
+    text-decoration: none;
+    width: 100px;
+    height: 40px;
+  
+}
